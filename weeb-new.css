@@ -1,0 +1,209 @@
+.main
+{
+    background-image:linear-gradient(rgba(13, 124, 197, 0.883),rgba(11, 114, 165, 0.3)), url("../downloads/white.jpg"); 
+    background-color: rgba(13, 124, 197, 0.883);
+    width:100%;
+    height:100vh;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    clip-path: polygon(100% 0%, 100% 75%, 50% 100%, 0 75%, 0 0);
+}
+.nav-link
+{
+    font-weight: bold;
+    color:white;
+    margin:5px;
+}
+.nav-link:hover
+{
+    color:black;
+    text-decoration: underline;
+}
+.navbar-brand
+{
+    font-weight: bold;
+    font-size: 26px;
+}
+.navbar-toggler
+{
+    outline:brown;
+    border:2px solid white;
+    color:white;
+}
+.navbar-toggler:hover
+{
+    cursor: pointer;
+}
+.head
+{
+    
+    font-family: cursive;
+    
+}
+.btn
+{
+    
+    color:white;
+    border:2px solid white;
+    border-radius: 20px;
+    width:110px;
+    outline: none;
+}
+.btn:hover
+{
+    color:blue;
+    background-color: white;
+    font-weight: bold;
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+}
+.center
+{
+    position: absolute;
+    width:100%;
+    height:auto;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    
+    text-align: center;
+}
+.txt
+{
+    text-align: center;
+    
+}
+.column
+{
+    width:100%; height:auto;
+    
+    border: medium none;
+    padding:50px;
+    border-radius: 3px;
+    transition: 0.3s;
+    text-align: center;
+}
+.column:hover
+{
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+    transform: translateY(-20px);
+}
+.navbar.scrolled 
+{
+    background-color: black;
+}
+.section 
+{
+    display: flex;
+}
+.icon1
+{
+    padding-left: 100px;
+    padding-top: 70px;
+    color:black;
+}
+.icon2 
+{  
+    padding-left: 100px;
+    padding-top: 0px;
+    color: black;
+}
+.icon3
+{ 
+    padding-left: 100px;
+    padding-top: 0px;
+    color: black;
+}
+.graph3
+{
+    padding-top: 60px;
+    padding-left: 150px;
+}
+.graph2 
+{
+    padding-top: 60px;
+    padding-left: 150px;
+}
+.graph1 
+{
+    padding-top: 60px;
+    padding-left: 150px;
+}
+.bar 
+{
+    font-weight: bold;
+    font-size: 20px;
+}
+.cols
+{
+    font-size: 20px;
+    margin-bottom: 60px;
+}
+*
+{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.pricing
+{
+    background-color: rgba(13, 124, 197, 0.883);
+}
+.card
+{
+    text-align: center;
+    align-items: center;
+    margin:10px;
+}
+.card:hover
+{
+    transform: translateY(-20px);
+}
+.card-link
+{
+    border:1px solid rgba(13, 124, 197, 0.883);
+    border-radius: 20px;
+    background-color: white;
+    width:100px;
+    height:35px;
+    text-align: center;
+    color:rgba(13, 124, 197, 0.883);
+    outline: none;
+}
+.card-link:hover
+{
+    background-color: rgba(13, 124, 197, 0.883);
+    color:white;
+}
+span:hover
+{
+    font-size: 32px;
+}
+.anch
+{
+    text-decoration: none;
+    color:black;
+    font-size:20px;
+}
+.anch:hover
+{
+    text-decoration: none;
+    color:rgba(13, 124, 197, 0.883);
+
+}
+.card-title:hover
+{
+color: rgba(13, 124, 197, 0.883);
+}
+
+.content
+{
+   
+    margin-left: 160px;
+}
+.box:hover
+{
+  background-color: rgba(13, 124, 197, 0.883);
+  width:140px;
+  text-align: center;
+  transform: translateY(-10);
+  transition-delay: 1s;
+}

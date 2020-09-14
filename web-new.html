@@ -1,0 +1,446 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="weeb-new.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <title>Responsive website</title>
+
+    <style>
+       .main
+{
+    background-image:linear-gradient(rgba(13, 124, 197, 0.883),rgba(11, 114, 165, 0.3)), url("../downloads/white.jpg"); 
+    background-color: rgba(13, 124, 197, 0.883);
+    width:100%;
+    height:100vh;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    clip-path: polygon(100% 0%, 100% 75%, 50% 100%, 0 75%, 0 0);
+}
+.nav-link
+{
+    font-weight: bold;
+    color:white;
+    margin:5px;
+}
+.nav-link:hover
+{
+    color:black;
+    text-decoration: underline;
+}
+.navbar-brand
+{
+    font-weight: bold;
+    font-size: 26px;
+}
+.navbar-toggler
+{
+    outline:brown;
+    border:2px solid white;
+    color:white;
+}
+.navbar-toggler:hover
+{
+    cursor: pointer;
+}
+.head
+{
+    
+    font-family: cursive;
+    
+}
+.btn
+{
+    
+    color:white;
+    border:2px solid white;
+    border-radius: 20px;
+    width:110px;
+    outline: none;
+}
+.btn:hover
+{
+    color:rgba(13, 124, 197, 0.883);
+    background-color: white;
+    font-weight: bold;
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+}
+.center
+{
+    position: absolute;
+    width:100%;
+    height:auto;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    
+    text-align: center;
+}
+.txt
+{
+    text-align: center;
+    
+}
+.column
+{
+    width:100%; height:auto;
+    
+    border: medium none;
+    padding:50px;
+    border-radius: 3px;
+    transition: 0.3s;
+    text-align: center;
+}
+.column:hover
+{
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+    transform: translateY(-20px);
+}
+.navbar.scrolled 
+{
+    background-color: black;
+}
+.section 
+{
+    display: flex;
+}
+.icon1
+{
+    padding-left: 100px;
+    padding-top: 70px;
+    color:black;
+}
+.icon2 
+{  
+    padding-left: 100px;
+    padding-top: 0px;
+    color: black;
+}
+.icon3
+{ 
+    padding-left: 100px;
+    padding-top: 0px;
+    color: black;
+}
+.graph3
+{
+    padding-top: 60px;
+    padding-left: 150px;
+}
+.graph2 
+{
+    padding-top: 60px;
+    padding-left: 150px;
+}
+.graph1 
+{
+    padding-top: 60px;
+    padding-left: 150px;
+}
+.bar 
+{
+    font-weight: bold;
+    font-size: 20px;
+}
+.cols
+{
+    font-size: 20px;
+    margin-bottom: 60px;
+}
+*
+{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.pricing
+{
+    background-color: rgba(13, 124, 197, 0.883);
+}
+.card
+{
+    text-align: center;
+    align-items: center;
+    margin:10px;
+}
+.card:hover
+{
+    transform: translateY(-20px);
+}
+.card-link
+{
+    border:1px solid rgba(13, 124, 197, 0.883);
+    border-radius: 20px;
+    background-color: white;
+    width:100px;
+    height:35px;
+    text-align: center;
+    color:rgba(13, 124, 197, 0.883);
+    outline: none;
+}
+.card-link:hover
+{
+    background-color: rgba(13, 124, 197, 0.883);
+    color:white;
+}
+span:hover
+{
+    font-size: 32px;
+}
+.anch
+{
+    text-decoration: none;
+    color:black;
+    font-size:20px;
+}
+.anch:hover
+{
+    text-decoration: none;
+    color:rgba(13, 124, 197, 0.883);
+
+}
+.card-title:hover
+{
+color: rgba(13, 124, 197, 0.883);
+}
+
+.content
+{
+   
+    margin-left: 160px;
+}
+.box:hover
+{
+  background-color: rgba(13, 124, 197, 0.883);
+  width:140px;
+  text-align: center;
+  transform: translateY(-10);
+  transition-delay: 1s;
+}
+    </style>
+  </head>
+  <body>
+       <div class="main">
+           <div class="container">
+            <nav class="navbar navbar-expand-lg">
+                <a class="navbar-brand text-white" href="#">WEB</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav ml-auto text-uppercase">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#service">Services</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#prog">Progress</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#price">Price</a>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+              <div class="center">
+              <h1 class="head text-white">We are Web Developers</h1>
+              <h5 class="head text-white">We create world's best websites.</h5>
+              <a href="#about" class="btn mt-3">contact us</a>
+            </div>
+           </div>
+       </div>
+           <hr> <br>
+       <section>
+       <div class="container">
+           <h2 class="serv text-center pt-5 text-dark font-weight-bold" id="service">SERVICES</h2>  <br>
+               <div class="row">
+                   <div class="column col-lg-4 col-md-4 col-12" >
+                  <a href="#">  <i class="fa fa-desktop fa-3x" aria-hidden="true" stle="color:blue"></i> </a>
+                     <p class="font font-weight-bold text-center pt-3">Responsive web <br>  design</p>
+                     <p class="txt">Responsive web design is an approach to web design that makes web pages render well on a variety of devices and window or screen sizes. responsive web design</p>
+                   </div>
+
+                   <div class="column col-lg-4 col-md-4 col-12" >
+                  <a href="#">  <i class="fa fa-trophy fa-3x" aria-hidden="true"></i>  </a>
+                    <p class="font font-weight-bold text-center pt-3">front-end <br> development</p>
+                    <p class="txt">A front-end developer is a web developer that codes the front end of a website. front end development is how that design actually gets implemented on the web.</p>
+                  </div>
+
+                  <div class="column col-lg-4 col-md-4 col-12" >
+                   <a href="#"><i class="fa fa-magic fa-3x" aria-hidden="true"></i> </a> 
+                    <p class="font font-weight-bold text-center pt-3">website <br> development</p>
+                    <p class="txt">Web development refers to building website and deploying on the web. Web development requires use of scripting languages both at the server end as well as at client end.</p>
+                  </div>
+
+               </div>
+       </div>
+    </section>
+      <br> </br>
+   <div class="section bg-light" id="prog">
+       <div class="container">
+           <h3 class="offer text-center font-weight-bold pt-5" >WHAT DO WE OFFER </h3>
+           <p class="para text-center">A web developer is someone who takes a web design which has been created by a design team and turns it into a website.</p> <br>
+           <br>
+           <div class="row">
+              <div class="col-lg-6 col-md-6 col-12">
+                <p class="bar text-uppercase">html</p> 
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped bg-danger" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                  <p class="bar pt-3 text-uppercase">css</p> 
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 90%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                  <p class="bar pt-3 text-uppercase">javascript</p> 
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped bg-warning" role="progressbar" style="width: 80%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                  <p class="bar pt-3 text-uppercase">bootstrap</p> 
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped bg-primary" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                  <p class="bar pt-3 text-uppercase">react.js</p> 
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped bg-dark" role="progressbar" style="width: 40%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                  
+              </div>
+
+              <div class="col-lg-6 col-md-6 col-12">
+                  <div class="row">
+                      <div class="colu col-lg-2 col-2">
+                        <a href="#">  <i class="icon1 fa fa-desktop fa-3x" aria-hidden="true"></i> </a> <br> </br>
+                        <a href="#">  <i class="icon2 fa fa-trophy fa-3x" aria-hidden="true"></i>  </a> <br> </br>
+                        <a href="#"><i class="icon3 fa fa-magic fa-3x" aria-hidden="true"></i> </a> 
+                      </div>
+                      <div class="cols col-lg-10 col-10">
+                        <p class="graph1 font-weight-bold">Responsive Web Design</p>
+                        <p class="graph2 font-weight-bold">Front end Development</p>
+                        <p class="graph3 font-weight-bold">Website development</p> <br> </br>
+                    </div>
+                  </div>
+            </div>
+           </div>
+       </div>
+    </div>
+
+      <br>
+    <div>
+        <p class="create text-center pt-5 font-weight-bold">MORE THAN 2000 WEBSITES CREATED</p> <br> </br>
+          <div class="container d-flex justify-content-around align-items-center">
+            <div class="box">
+                <h2 class="count">1500</h2>
+                <p class="install">Installations</p>
+            </div>
+            <div class="box">
+                <h2 class="count">2500</h2>
+                <p class="install">Awards Won</p>
+            </div>
+            <div class="box">
+                <h2 class="count">700</h2>
+                <p class="install">Happy Clients</p>
+            </div>
+            <div class="box">
+                <h2 class="count">500</h2>
+                <p class="install">Working On</p>
+            </div>
+          </div>
+    </div> <br>
+
+    <div class="pricing mt-5" id="price">
+        <div class="container">
+          <h5 class="price text-center text-white font-weight-bold pt-5">OUR BEST PRICING</h5> <br> </br>
+           <div class="row">
+              <div class="col-lg-4 col-md-4 col-sm-10 col-12">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                      <h5 class="card-title font-weight-bold">BASIC</h5>
+                      <hr>
+                      <p class="card-text"><a link="#" class="anch">$ <span>40</span></a>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <hr>
+                      <button href="#" class="card-link mt-3">Purchase</button>
+                      
+                    </div>
+                  </div>
+              </div>
+
+              <div class="col-lg-4 col-md-4 col-12">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                      <h5 class="card-title font-weight-bold">STANDARD</h5>
+                     <hr>
+                      <p class="card-text"><a link="#" class="anch">$ <span>60</span></a>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <hr>
+                      <button href="#" class="card-link mt-3">Purchase</button>
+                     
+                    </div>
+                  </div>
+              </div>
+
+              <div class="col-lg-4 col-md-4 col-12">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                      <h5 class="card-title font-weight-bold">UNLIMITED</h5>
+                     <hr>
+                      <p class="card-text"><a link="#" class="anch">$ <span>80</span></a>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <hr>
+                      <button class="card-link mt-3" id="home">Purchase</button> 
+                      
+                    </div>
+                  </div>
+              </div> 
+           </div>
+        </div>
+        <br> </br>
+    </div> <br> </br>
+
+    <div class="abt" id="about">
+        <div class="container">
+            <h3 class="about pt-5 text-center font-weight-bold text-primary">CONTACT US</h3> <br> </br>
+            <div class="row">
+             <div class="col-lg-8 col-md-8 col-10 offset-lg-2 offset-md-2 col-1">
+
+                <form action="action-page.php">
+                    
+                        <div class="form-group">
+                          <label for="exampleInputEmail1">UserName</label>
+                          <input type="email" class="form-control" id="exampleInputEmail1" placeholder="enter your name" aria-describedby="emailHelp" required>
+                         
+                        </div>
+                        <div class="form-group">
+                          <label for="exampleInputPassword1">Email I'd </label>
+                          <input type="email" class="form-control" id="exampleInputPassword1" placeholder="enter email address" required>
+                          <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                        </div>
+                        <div class="form-group form-check">
+                          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                          <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                     
+
+             </form>
+             <br> </br>
+        </div>
+
+    </div>
+        </div>
+    </div>
+    
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js" integrity="sha256-jDnOKIOq2KNsQZTcBTEnsp76FnfMEttF6AV2DF2fFNE=".crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js" integrity="sha256-JtQPj/3xub8oapVMaIijPNoM0DHoAtgh/gwFYuN5rik=".crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+</body>
+</html>
